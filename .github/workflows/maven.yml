@@ -23,4 +23,6 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: reShift Scan
-      run: mvn compile com.softwaresecured.reshift:maven-plugin:LATEST:analyse com.softwaresecured.reshift:maven-plugin:LATEST:upload \-Dreshift.token=ATTXna9LJOaKzc2oYwme0oVrXRmbZ3wXkJYF8RoKCII=
+      run: mvn compile com.softwaresecured.reshift:maven-plugin:LATEST:analyse \ com.softwaresecured.reshift:maven-plugin:LATEST:upload \-Dreshift.token=0xTyqbNkN+lHduJDmXyyMr9f8vX3eFcuuaz8KE+Q7z0=
+
+
